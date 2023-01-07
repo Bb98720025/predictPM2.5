@@ -10,7 +10,7 @@
 
 程式代碼
 ----
-文件中版本2的代碼:predictPM2.5.ipynb<br>
+predictPM2.5.ipynb(docx文件中版本2的代碼)<br>
 
 準備數據
 ----
@@ -19,5 +19,8 @@
 
 進行作業
 ----
-
-把資料上傳雲端並連結雲端硬碟 最後會在暫存的sample_data資料夾產生submit.csv 下載後去 https://www.kaggle.com/competitions/ml2020spring-hw1/submissions 上傳測試
+把predictPM2.5.ipynb tran.csv test.csv上傳雲端<br>
+程式中會連結雲端硬碟 
+執行主程式後會在暫存的sample_data資料夾產生submit.csv<br>
+下載後去 https://www.kaggle.com/competitions/ml2020spring-hw1/submissions 上傳測試
+附實測結果圖.png與submit.csv供比對
