@@ -6,6 +6,7 @@
 * 程式代碼<br>
 * 準備數據<br>
 * 進行作業<br>
+* 原文連結<br>
 
 環境
 ----
@@ -26,4 +27,9 @@
 * 程式中會連結雲端硬碟 
 * 執行主程式後會在暫存的sample_data資料夾產生submit.csv<br>
 * 下載後去 https://www.kaggle.com/competitions/ml2020spring-hw1/submissions 上傳測試<br>
-* 附實測結果圖.png與submit.csv供比對
+* 附實測結果圖.png與submit.csv供比對<br>
+* 附7--醫療AI案例實作：預測PM2.5的值.docx 供參考<br>
+
+原文連結
+----
+https://blog.csdn.net/iteapoy/article/details/105431738
