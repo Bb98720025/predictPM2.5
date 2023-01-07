@@ -1,8 +1,25 @@
 # predictPM2.5
 predictPM2.5
-預測PM2.5的值
-1. 作業描述
-視頻：李宏毅《機器學習》- - PM2.5預測https://www.bilibili.com/video/BV1Ht411g7Ef/?p=9
-作業描述
-讓機器預測豐原站在下一個小時會觀測到的PM2.5，舉例來說，如現在是2017-09-29 08：00：00，那麼要預測2017-09-29 09：00：00豐原站的PM2.5值會是多少。
-原文連結：HTTP://blog.csdn.net/iteapoy/article/details/105431738
+#predictPM2.5 , 南華大學
+繪畫AI
+
+目錄
+準備資料
+準備數據
+匯入模組
+進行作業
+準備資料
+準備一個可以打開google colab 的賬號
+請使用我提供的AI.ipynb來進行作業
+(請先全部啟動一次,生成必要文件,正常來講是會出錯是正常現象,在準備好其他資料後在獨自一個一個執行)
+準備數據
+https://drive.google.com/file/d/18HUJmBBTbOjfLJzLQzfACwDGkMbSOsng/view?usp=share_link
+這個是網路上找到4GB的模型
+或者可以在網上找其他模型來使用
+注意由於google colab 的資源提供量不多所以模型的大小只能使用4GB的,不然google colab 會出錯
+匯入模組
+請把模型上傳到google雲端,將模型放置到雲端的 NovelAI 目錄下，並改名為 animefull-final-pruned.ckpt
+進行作業
+在所有前置動作完成後,會有倆個網址跳出了,這時候我們是選擇PUBLIC的網址,然後會跳出新視窗
+由於我們是使用遠端進行的作業,所以會有賬號密碼
+賬號密碼為最後的 --gradio-auth 1:2" 這個部分,其中[ 1 : 2 ] 的 1 是賬號,2是密碼,可以在進行作業前改
