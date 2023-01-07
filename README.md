@@ -2,24 +2,22 @@
 =====
 目錄
 ----
-程式代碼\<br> 
-準備數據\<br> 
-匯入模組\<br> 
-進行作業\<br> 
+環境<br>程式代碼<br> 準備數據<br> 進行作業<br>
+
+環境
+----
+在colab上操作 
 
 程式代碼
 ----
-predictPM2.5.ipynb是文件中版本2的代碼
+文件中版本2的代碼:predictPM2.5.ipynb<br>
+
 準備數據
 ----
-github裡的tran.csv test.csv
+訓練資料集:tran.csv<br>
+測試資料集:test.csv<br>
 
-這個是網路上找到4GB的模型\
-或者可以在網上找其他模型來使用\
-注意由於google colab 的資源提供量不多所以模型的大小只能使用4GB的,不然google colab 會出錯\
-匯入模組\
-請把模型上傳到google雲端,將模型放置到雲端的 NovelAI 目錄下，並改名為 animefull-final-pruned.ckpt\
-進行作業\
-在所有前置動作完成後,會有倆個網址跳出了,這時候我們是選擇PUBLIC的網址,然後會跳出新視窗\
-由於我們是使用遠端進行的作業,所以會有賬號密碼\
-賬號密碼為最後的 --gradio-auth 1:2" 這個部分,其中[ 1 : 2 ] 的 1 是賬號,2是密碼,可以在進行作業前改\
+進行作業
+----
+
+把資料上傳雲端並連結雲端硬碟 最後會在暫存的sample_data資料夾產生submit.csv 下載後去 https://www.kaggle.com/competitions/ml2020spring-hw1/submissions 上傳測試
